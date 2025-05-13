@@ -8,6 +8,5 @@ function exibirRotas() {
     }
   
     alert(`Simulando rotas de ${origem} para ${destino} (ida e volta).`);
-    // Aqui, você pode integrar futuramente com a API do Google Maps para gerar rotas reais
   }
   
