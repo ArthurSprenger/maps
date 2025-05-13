@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Rotas de Ida e Volta - Maps</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Rotas de Ida e Volta</h1>
+    <div class="inputs">
+      <input type="text" id="origem" placeholder="Origem">
+      <input type="text" id="destino" placeholder="Destino">
+      <button onclick="exibirRotas()">Ver ida e volta</button>
+    </div>
+    <div id="mapa-simulacao">
+      <div class="rota ida">Rota de Ida (azul)</div>
+      <div class="rota volta">Rota de Volta (vermelho)</div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
